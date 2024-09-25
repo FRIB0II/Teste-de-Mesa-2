@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-namespace TesteMesa2
+﻿namespace TesteMesa2
 {
     public class Exercício2
     {
