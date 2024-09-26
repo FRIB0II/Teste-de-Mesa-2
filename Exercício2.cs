@@ -6,6 +6,7 @@
         {
             Console.Clear();
             Console.WriteLine("");
+            Console.WriteLine("Exercício 2 \n");
 
             double valorPresente = 3800.00;
             double taxaJurosPerc = 1.0125;

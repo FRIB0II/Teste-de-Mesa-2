@@ -6,6 +6,7 @@
         {
             Console.Clear();
             Console.WriteLine("");
+            Console.WriteLine("Exercício 3. \n");
 
             double valorPresente, taxaJurosPerc, taxaJurosFormat, rendimento, rendimentoLiquido;
             int periodoMes;
