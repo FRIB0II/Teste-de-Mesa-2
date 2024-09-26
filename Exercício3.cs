@@ -40,6 +40,7 @@
                 Console.Write($"R${rendimento:F2}\t\t|");
             }
             Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }

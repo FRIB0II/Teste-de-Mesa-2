@@ -31,6 +31,8 @@
             }
 
             Console.WriteLine($"O redimento total é de R${rendimento:F2}");
+            Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }

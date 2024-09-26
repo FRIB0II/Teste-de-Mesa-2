@@ -18,7 +18,12 @@ namespace TesteMesa2
             int periodoMes = 6;
             char escolha;
 
-            Console.WriteLine("|Loop a.m\t|Taxa Juros\t|Rendimento\t\t|Rend. Liquido\t\t|Renda Acumulada\t|Resgate\t|Saldo\t|");
+            Console.WriteLine("Dados: ");
+            Console.WriteLine($"Capital inicial: R${valorPresente}");
+            Console.WriteLine($"Taxa de juros a.m.: {taxaJuros}%");
+            Console.WriteLine($"Tempo de investimento: {periodoMes} meses.\n");
+
+            Console.WriteLine("|Loop a.m\t|Taxa Juros\t|Rendimento\t\t|Rend. Liquido\t\t|Renda Acumulada\t|Resgate|\tSaldo\t|");
 
             for (int i = 1; i <= periodoMes; i++)
             {
@@ -46,8 +51,8 @@ namespace TesteMesa2
                         Console.Write($"R${rendimento:F2}\t\t|");
                         Console.Write($"R${rendimentoLiquido:F2}\t\t|");
                         Console.Write($"R${rendimento:F2}\t\t|");
-                        Console.Write($"R${resgateRendimento}\t\t|");
-                        Console.Write($"R${saldoPosResgate}\t\t|");
+                        Console.Write($"R${resgateRendimento}\t|");
+                        Console.Write($"R${saldoPosResgate}\t|");
 
                         resgateRendimento = 0.0;
                     }
@@ -76,6 +81,7 @@ namespace TesteMesa2
                 } 
             }
             Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }
